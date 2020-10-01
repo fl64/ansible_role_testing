@@ -1,0 +1,5 @@
+.vagrant/
+*.log
+test/roles/*
+!test/roles/test-role
+.venv

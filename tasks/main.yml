@@ -1,0 +1,12 @@
+---
+- name: hello
+  debug:
+    msg: hello!
+
+- name: test
+  copy:
+    content: "check this"
+    dest: "/tmp/testfile.txt"
+    owner: 1000
+    group: 1000
+    mode: "0644"
